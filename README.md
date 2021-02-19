@@ -1,1 +1,4 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Ryan MacInnes
+
+This is the next.js source code for m.acinn.es and ryanmacinnes.org
+
