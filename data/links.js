@@ -1,15 +1,11 @@
 export const links = [
   {
-    title: 'Vimeo',
-    url: 'https://vimeo.com/user2911712',
+    title: 'Github',
+    url: 'https://github.com/goddamnyouryan',
   },
   {
     title: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/ian-macinnes-8935a493/',
-  },
-  {
-    title: 'Instagram',
-    url: 'https://www.instagram.com/thecushionboy/',
+    url: 'https://www.linkedin.com/in/wrmacinnes/',
   },
   {
     title: 'Resume',
