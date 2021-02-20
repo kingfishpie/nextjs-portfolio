@@ -32,6 +32,10 @@ h1 {
   margin-right: 50px;
 }
 
+.divider {
+  margin-bottom: 50px;
+}
+
 .projectList {
 
 }
@@ -57,5 +61,27 @@ h1 {
 @media (max-width: 800px) {
   .container {
     width: 95%;
+  }
+
+  .header, .projectListItem {
+    display: block;
+  }
+
+  .logo, .projectImage {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 2.5% auto;
+  }
+
+  .header, .divider {
+    margin-bottom: 25px;
+  }
+
+  .projectListItem {
+    margin-bottom: 50px;
   }
 }

@@ -9,7 +9,7 @@ export default function Home() {
       <main className='container'>
         <header className='header'>
           <a href='/' className='logo'>
-            <img src='logo.png' srcset='logo-2x.png 2x' />
+            <img src='logo.png' srcSet='logo-2x.png 2x' />
           </a>
           <div>
             <h1>Ryan MacInnes</h1>
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </header>
 
-        <h2>Some things I've made recently</h2>
+        <h2 className='divider'>--</h2>
 
         <ul className='projectList'>
           {projects.map((project, index) => <Project project={project} key={index} />)}
