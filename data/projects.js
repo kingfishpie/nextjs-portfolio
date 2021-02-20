@@ -24,16 +24,16 @@ export const projects = [
     description: 'I built Link Horse for myself as a way to organize all of my bookmarks, that I could access from any computer, I built it in a few days, and importantly also built a bookmarklet to make it really easy to save new links.',
   },
   {
-    title: 'Minotaur',
-    link: 'https://minotaur.fm',
-    image: 'minotaur',
-    description: "I used to exclusively use Rdio to stream music. Then it was shut down, and I found all the other alternatives unsatisfactory: Spotify, Apple Music, Tidal...they were all too ugly and complicated. I wanted something simple and clean. So I built it myself. Minotaur uses Spotify album data to fetch music from YouTube, all with a clean and simple interface.",
-  },
-  {
     title: 'Cookmatic',
     link: 'https://cookmatic.co',
     image: 'cookmatic',
     description: 'Cookmatic was built because of my love of cooking but my inability to plan recipes and grocery shopping appropriately. It allows you to save any recipe URL on the internet and it will parse the ingredients and provide you with a grocery shopping list you can use in the store to make shopping easy.',
+  },
+  {
+    title: 'Minotaur',
+    link: 'https://minotaur.fm',
+    image: 'minotaur',
+    description: "I used to exclusively use Rdio to stream music. Then it was shut down, and I found all the other alternatives unsatisfactory: Spotify, Apple Music, Tidal...they were all too ugly and complicated. I wanted something simple and clean. So I built it myself. Minotaur uses Spotify album data to fetch music from YouTube, all with a clean and simple interface.",
   },
   {
     title: 'Locent',

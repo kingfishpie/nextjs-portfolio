@@ -24,6 +24,12 @@ h1 {
 
 .header {
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 50px;
 }
 
 .projectList {
@@ -32,6 +38,11 @@ h1 {
 
 .projectListItem {
   margin-bottom: 100px;
+  display: flex;
+}
+
+.projectImage {
+  margin-right: 50px;
 }
 
 .projectTitle {

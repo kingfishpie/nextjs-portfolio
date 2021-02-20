@@ -8,9 +8,16 @@ export default function Home() {
       <Meta title='Ryan MacInnes - Product-Minded Programmer and CTO' />
       <main className='container'>
         <header className='header'>
-          <h1>Ryan MacInnes</h1>
-          <h2>Product-Minded Programmer</h2>
+          <a href='/' className='logo'>
+            <img src='logo.png' srcset='logo-2x.png 2x' />
+          </a>
+          <div>
+            <h1>Ryan MacInnes</h1>
+            <h2>Product-Minded Programmer</h2>
+          </div>
         </header>
+
+        <h2>Some things I've made recently</h2>
 
         <ul className='projectList'>
           {projects.map((project, index) => <Project project={project} key={index} />)}
