@@ -27,11 +27,11 @@ export default function Home() {
           <p>
             --
             <br />
-            Making docs, short films and music videos.
+            Web and iOS programmer with an eye for design and UX.
             <br />
-            I'm currently working as a video editor at <a href='https://www.tubescience.com/'>TubeScience</a>
+            I love talking to customers and solving their problems.
             <br />
-            I like to explore the hidden secrets of everyday life and regular people.
+            And building products that are simple and beautiful.
           </p>
           <ul>
             {links.map((link, i) => <li key={i}>
