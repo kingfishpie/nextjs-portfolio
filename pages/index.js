@@ -1,20 +1,19 @@
-import { videos } from '../data/videos'
+import { projects } from '../data/projects'
 import { links } from '../data/links'
-import Video from '../components/video'
+import Project from '../components/project'
 import Meta from '../components/meta'
 
 export default function Home() {
   return <>
-      <Meta title='Ian MacInnes - Filmmaker based in Los Angeles' />
+      <Meta title='Ryan MacInnes - Product-Minded Programmer and CTO' />
       <main className='container'>
         <header className='header'>
-          <h1>Ian MacInnes</h1>
-          <h2>Filmmaker</h2>
-          <h2>Los Angeles</h2>
+          <h1>Ryan MacInnes</h1>
+          <h2>Product-Minded Programmer</h2>
         </header>
 
-        <ul className='videoList'>
-          {videos.map((video, index) => <Video video={video} key={index} />)}
+        <ul className='projectList'>
+          {projects.map((project, index) => <Project project={project} key={index} />)}
         </ul>
 
         <div className='footer'>
@@ -33,7 +32,7 @@ export default function Home() {
             </li>)}
           </ul>
           <p>
-            <a href='mailto:hi@ianhatesgum.com'>hi@ianhatesgum.com</a>
+            <a href='mailto:ryan@goddamnyouryan.com'>ryan@goddamnyouryan.com</a>
           </p>
         </div>
       </main>
