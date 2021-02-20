@@ -19,7 +19,7 @@ export default function Home() {
 
         <h2 className='divider'>--</h2>
 
-        <ul className='projectList'>
+        <ul>
           {projects.map((project, index) => <Project project={project} key={index} />)}
         </ul>
 

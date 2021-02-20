@@ -34,5 +34,5 @@ const Entry = ({ entry }) => <li className={styles.listItem}>
     <h4>{entry.dates}</h4>
   </div>
 
-  <p className={styles.entryDescription}>{entry.description}</p>
+  <p>{entry.description}</p>
 </li>
