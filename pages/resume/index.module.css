@@ -22,12 +22,6 @@
   margin-bottom: 1rem;
 }
 
-.contact {
-  display: grid;
-  grid-template-columns: 45% 45%;
-  grid-gap: 0 45%;
-}
-
 .entryHeader {
   margin-bottom: 1rem;
 }
@@ -40,5 +34,5 @@
 }
 
 .listItem {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
