@@ -9,13 +9,13 @@ export const resume = [
     title: 'Juicer',
     job: 'Co-Founder and CTO',
     dates: '2014 - 2018',
-    description: 'Co-Founder of Juicer an embeddable social media aggregator SaaS. Built the base product, handled scaling, both from a technical side and a revenue/user growth side. Wore multiple hats but my roles could be summed up as: CTO, Lead Developer, Head of Product and Head of Customer Success.',
+    description: 'Co-Founder of Juicer, an embeddable social media aggregator SaaS. Built the base product, handled scaling, both from a technical side and a revenue/user growth side. Wore multiple hats but my roles could be summed up as: CTO, Lead Developer, Head of Product and Head of Customer Success.',
   },
   {
     title: 'Locent',
     job: 'Co-Founder and CTO',
     dates: '2014 - 2016',
-    description: 'A tool that allowed businesses to have text message conversations with their customers, as well as take orders and payments via text. We attended Summer 2015 YCombinator.',
+    description: 'A tool that allowed businesses to have text message conversations with their customers, as well as take orders and payments via text. We attended YCombinator, class of Summer 2015.',
   },
   {
     title: 'Good',
@@ -33,6 +33,6 @@ export const resume = [
     title: 'Michigan State University',
     job: 'Student',
     dates: '2003 - 2007',
-    description: 'Bachelors of Sciene in both Microbiology and Environmental Biology.',
+    description: 'Bachelors of Science in both Microbiology and Environmental Biology.',
   },
 ]
