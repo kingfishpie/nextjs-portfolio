@@ -5,7 +5,7 @@ import Meta from '../components/meta'
 
 export default function Home() {
   return <>
-      <Meta title='Ryan MacInnes - Product-Minded Programmer and Founder' />
+      <Meta title='NOT Ryan MacInnes - Product-Minded Programmer and Founder' />
       <main className='container'>
         <header className='header'>
           <a href='/' className='logo'>
