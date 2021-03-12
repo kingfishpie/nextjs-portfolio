@@ -10,8 +10,8 @@ export default function Resume() {
           <img className={styles.headshot} src='/headshot.jpg' />
           <div className={styles.info}>
             <div className={styles.title}>
-              <h1>Ryan MacInnes</h1>
-              <h2>Product-Minded Programmer</h2>
+              <h1>Hi, I'm Carrie</h1>
+              <h2>--— a UX design and research leader</h2>
             </div>
             <ul>
               <li>ryan@goddamnyouryan.com</li>
