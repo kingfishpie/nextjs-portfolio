@@ -4,18 +4,18 @@ import styles from './index.module.css'
 
 export default function Resume() {
   return <>
-      <Meta title='Ryan MacInnes - Resume' />
+      <Meta title='Carrie Nusbaum' />
       <div className={styles.layout}>
         <header className={styles.header}>
-          <img className={styles.headshot} src='/headshot.jpg' />
+          <img className={styles.headshot} src='/biopic.png' />
           <div className={styles.info}>
             <div className={styles.title}>
-              <h1>Hi, I'm Carrie</h1>
-              <h2>--— a UX design and research leader</h2>
+              <h1>Carrie Nusbaum</h1>
+              <h2>UX design and research management</h2>
             </div>
             <ul>
-              <li>ryan@goddamnyouryan.com</li>
-              <li>ryanmacinnes.org</li>
+              <li>carrie.nusbaum@gmail.com</li>
+              <li>carrienusbaum.com</li>
             </ul>
           </div>
         </header>

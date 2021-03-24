@@ -2,20 +2,29 @@ import { projects } from '../data/projects'
 import { links } from '../data/links'
 import Project from '../components/project'
 import Meta from '../components/meta'
+import Button from '../components/button/button.js'
 
 export default function Home() {
   return <>
-      <Meta title='NOT Ryan MacInnes - Product-Minded Programmer and Founder' />
+      <Meta title='Carrie Nusbaum - UX design and research management' />
       <main className='container'>
         <header className='header'>
-          <a href='/' className='logo'>
-            <img src='logo.png' srcSet='logo-2x.png 2x' />
-          </a>
           <div>
-            <h1>Ryan MacInnes</h1>
-            <h2>Product-Minded Programmer</h2>
+            <h1>Carrie Nusbaum, MSI</h1>
+            <h2>UX design and research management</h2>
+            <br />
+            <p>I’m an experienced UX designer and researcher with design management experience, and a knack for product strategy. I like helping to solve tricky problems, and making things make sense. </p>
+            <br />
+            <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
+            <br />
+            <Button className='button'>Email me</Button>
           </div>
+          <a href='/' className='logo'>
+            <img src='biopic.png' srcSet='biopic.png 3x' />
+          </a>
+          <br />
         </header>
+        
 
         <h2 className='divider'>--</h2>
 
@@ -39,7 +48,7 @@ export default function Home() {
             </li>)}
           </ul>
           <p>
-            <a href='mailto:ryan@goddamnyouryan.com'>ryan@goddamnyouryan.com</a>
+            <a href='mailto:carrie.nusbaum@gmail.com'>carrie.nusbaum@gmail.com</a>
           </p>
         </div>
       </main>

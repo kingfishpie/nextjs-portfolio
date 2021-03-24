@@ -1,0 +1,22 @@
+.button {
+    background-color: #5F83F3;
+    border-radius: .2rem;
+    border: none;
+    font-size: 14px;
+    color: white;
+    padding: .6em 1em;
+    margin-right: 10px;
+   
+  }
+
+  .button2 {
+    background-color: white;
+    color: #5F83F3;
+    border-radius: .2rem;
+    border: #5F83F3;
+    border-width: 2px;
+    font-size: 14px;
+    color: white;
+    padding: .6em 1em;
+   
+  }
