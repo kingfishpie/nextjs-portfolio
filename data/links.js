@@ -5,7 +5,7 @@ export const links = [
   },
   {
     title: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/wrmacinnes/',
+    url: 'https://www.linkedin.com/in/carrienusbaum/',
   },
   {
     title: 'Resume',
