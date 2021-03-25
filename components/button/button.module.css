@@ -13,27 +13,47 @@
     border-color: #5F83F3;
     color: white;
     margin-right: 10px;
-    box-shadow: -.3em .3em rgba(184, 200, 250, 100);
+    transition: .25s;
   }
 
   .inverseButton {
     color: #5F83F3;
     background-color: white;
-    box-shadow: -.3em .3em rgba(184, 200, 250, 100);
+    transition: .25s;
   }
 
   .button:hover {
-    background-color: #5F83F3;
-    border-color: #5F83F3;
-    color: white;
-    margin-right: 10px;
-    transform: translateX(.3em);
-    box-shadow: 0em 0em;
+    box-shadow: -.3em .3em rgba(184, 200, 250, 100);
   }
 
   .inverseButton:hover {
-    color: #5F83F3;
+    box-shadow: -.3em .3em rgba(184, 200, 250, 100);
+  }
+
+  .button:active {
+    background-color: #466EE9;
+    border-color: #466EE9;
+    box-shadow: 0 0;
+    transform: translateX(-2px);
+  }
+
+  .inverseButton:active{
     background-color: white;
-    transform: translate(.3em, -.3em);
-    box-shadow: 0em 0em;
+    border-color: #466EE9;
+    color: #466EE9;
+    box-shadow: 0 0;
+  }
+
+  .button:disabled {
+    opacity: .6;
+    background-color: #466EE9;
+    border-color: #466EE9;
+    box-shadow: 0 0;
+  }
+
+  .inverseButton:disabled{
+    opacity: .6;
+    background-color: white;
+    border-color: #466EE9;
+    color: #466EE9;
   }

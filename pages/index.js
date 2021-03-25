@@ -18,7 +18,7 @@ export default function Home() {
             <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
             <br />
             <Button>Email me</Button>
-            <Button disabled={true}>Disabled</Button>
+            <Button disabled={true}>Coming soon</Button>
             <Button inverse={true}>See My Resume</Button>
           </div>
           <a href='/' className='logo'>
