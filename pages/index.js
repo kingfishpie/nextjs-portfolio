@@ -2,7 +2,7 @@ import { projects } from '../data/projects'
 import { links } from '../data/links'
 import Project from '../components/project'
 import Meta from '../components/meta'
-import Button from '../components/button/button.js'
+import Button from '../components/button'
 
 export default function Home() {
   return <>
@@ -17,7 +17,9 @@ export default function Home() {
             <br />
             <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
             <br />
-            <Button className='button'>Email me</Button>
+            <Button>Email me</Button>
+            <Button disabled={true}>Disabled</Button>
+            <Button inverse={true}>See My Resume</Button>
           </div>
           <a href='/' className='logo'>
             <img src='biopic.png' srcSet='biopic.png 3x' />

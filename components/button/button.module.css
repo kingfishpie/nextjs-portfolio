@@ -1,10 +1,39 @@
-.button {
-    background-color: #5F83F3;
-    border-radius: .2rem;
-    border: none;
-    font-size: 14px;
-    color: white;
+.button, .inverseButton, .button:hover, .inverseButton:hover {
+    border-radius: 2rem;
+    font-size: .9em;
+    font-weight: 800;
     padding: .6em 1em;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+  }
+
+  .button {
+    background-color: #5F83F3;
+    border-color: #5F83F3;
+    color: white;
     margin-right: 10px;
-   
+    box-shadow: -.3em .3em rgba(184, 200, 250, 100);
+  }
+
+  .inverseButton {
+    color: #5F83F3;
+    background-color: white;
+    box-shadow: -.3em .3em rgba(184, 200, 250, 100);
+  }
+
+  .button:hover {
+    background-color: #5F83F3;
+    border-color: #5F83F3;
+    color: white;
+    margin-right: 10px;
+    transform: translateX(.3em);
+    box-shadow: 0em 0em;
+  }
+
+  .inverseButton:hover {
+    color: #5F83F3;
+    background-color: white;
+    transform: translate(.3em, -.3em);
+    box-shadow: 0em 0em;
   }
