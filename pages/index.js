@@ -6,13 +6,13 @@ import Button from '../components/button'
 
 export default function Home() {
   return <>
-      <Meta title='Carrie Nusbaum - UX design and research management' />
+      <Meta title='Carrie Nusbaum, MSI - UX design and research // design management' />
       <main className='container'>
         <header className='header'>
           <div>
-            <h1>Carrie Nusbaum, MSI</h1>
-            <h2>UX design and research management</h2>
-            <p>I’m an experienced UX designer and researcher with design management experience, and a knack for product strategy. I like helping to solve tricky problems, and making things make sense. </p>
+            <h1>Hi, I'm Carrie</h1>
+            <h2>&mdash; UX designer, researcher, and design manager</h2>
+            <p>I’m an experienced UX designer and researcher with a knack for product strategy. I like helping to solve tricky problems, and making things make sense. </p>
             <br />
             <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
             <br />
@@ -22,7 +22,7 @@ export default function Home() {
             <Button inverse={true}>See My Resume</Button>
           </div>
           <a href='/' className='logo'>
-            <img src='biopic.png' srcSet='biopic.png 3x' />
+            <img src='biopic.png' srcSet='biopic.png 2.5x' />
           </a>
           <br />
         </header>

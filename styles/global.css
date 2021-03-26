@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   line-height: 25px;
   font-weight: 400;
@@ -27,12 +27,13 @@ a:hover {
 
 h1 {
   font-weight: 900;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 30px;
+  padding-bottom: 10px;
 }
 
 h2 {
-  font-weight: semibold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   padding-bottom: 20px;
@@ -51,6 +52,7 @@ p {
 .container {
   width: 800px;
   margin: 50px auto;
+  padding-top: 50px;
 }
 
 .header {
@@ -60,7 +62,8 @@ p {
 }
 
 .logo {
-  margin-right: 50px;
+  padding-left: 30px;
+  margin-right: 0px;
 }
 
 
