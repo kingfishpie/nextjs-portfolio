@@ -12,13 +12,13 @@ export default function Home() {
           <div>
             <h1>Carrie Nusbaum, MSI</h1>
             <h2>UX design and research management</h2>
-            <br />
             <p>I’m an experienced UX designer and researcher with design management experience, and a knack for product strategy. I like helping to solve tricky problems, and making things make sense. </p>
             <br />
             <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
             <br />
+            <p>Find me on <a href='https://www.linkedin.com/in/carrienusbaum/'>LinkedIn</a> or email me at <a href='mailto:carrie.nusbaum@gmail.com'>carrie.nusbaum@gmail.com</a></p>
+            <br />
             <Button>Email me</Button>
-            <Button disabled={true}>Coming soon</Button>
             <Button inverse={true}>See My Resume</Button>
           </div>
           <a href='/' className='logo'>
@@ -36,13 +36,6 @@ export default function Home() {
 
         <div className='footer'>
           <p>
-            --
-            <br />
-            Web and iOS programmer with an eye for design and UX.
-            <br />
-            I love talking to customers and solving their problems.
-            <br />
-            And building products that are simple and beautiful.
           </p>
           <ul>
             {links.map((link, i) => <li key={i}>

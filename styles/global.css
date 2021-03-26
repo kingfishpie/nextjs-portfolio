@@ -9,12 +9,24 @@ body {
   font-weight: 400;
 }
 
-a, body {
+body {
   color: #403f3f;
 }
 
+a {
+  color:#5F83F3;
+  font-weight: 800;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#466EE9;
+  font-weight: 800;
+  text-decoration:none;
+}
+
 h1 {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 25px;
   line-height: 30px;
 }
@@ -23,6 +35,11 @@ h2 {
   font-weight: semibold;
   font-size: 20px;
   line-height: 25px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 20px;
 }
 
 p {
