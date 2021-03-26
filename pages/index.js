@@ -16,7 +16,7 @@ export default function Home() {
             <br />
             <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
             <br />
-            <p>Find me on <a href='https://www.linkedin.com/in/carrienusbaum/'>LinkedIn</a> or email me at <a href='mailto:carrie.nusbaum@gmail.com'>carrie.nusbaum@gmail.com</a></p>
+            <p>Find me on <a href='https://www.linkedin.com/in/carrienusbaum/' target="_blank">LinkedIn</a> or email me at <a href='mailto:carrie.nusbaum@gmail.com' target="_blank">carrie.nusbaum@gmail.com</a></p>
             <br />
             <Button>Email me</Button>
             <Button inverse={true}>See My Resume</Button>
@@ -39,11 +39,11 @@ export default function Home() {
           </p>
           <ul>
             {links.map((link, i) => <li key={i}>
-              <a href={link.url}>{link.title}</a>
+              <a href={link.url} target="_blank">{link.title}</a>
             </li>)}
           </ul>
           <p>
-            <a href='mailto:carrie.nusbaum@gmail.com'>carrie.nusbaum@gmail.com</a>
+            <a href='mailto:carrie.nusbaum@gmail.com' target="_blank">carrie.nusbaum@gmail.com</a>
           </p>
         </div>
       </main>
