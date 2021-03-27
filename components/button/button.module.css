@@ -9,53 +9,57 @@
   }
 
   .button {
-    background-color: #5F83F3;
-    border-color: #5F83F3;
+    background-color: #636B81;
+    border-color: #636B81;
     color: white;
     margin-right: 10px;
     transition: .25s;
   }
 
   .inverseButton {
-    color: #5F83F3;
+    color: #636B81;
     background-color: white;
     transition: .25s;
   }
 
   .button:hover {
+    background-color: #7c8dbd;
+    border-color:#7c8dbd;
     color:white;
     box-shadow: -.3em .3em rgba(184, 200, 250, 100);
   }
 
   .inverseButton:hover {
+    color: #7c8dbd;
+    border-color:#7c8dbd;
     box-shadow: -.3em .3em rgba(184, 200, 250, 100);
   }
 
   .button:active {
     color:white;
-    background-color: #466EE9;
-    border-color: #466EE9;
+    background-color: #4d5363;
+    border-color: #4d5363;
     box-shadow: 0 0;
     transform: translateX(-2px);
   }
 
   .inverseButton:active{
     background-color: white;
-    border-color: #466EE9;
-    color: #466EE9;
+    border-color: #4d5363;
+    color: #4d5363;
     box-shadow: 0 0;
   }
 
   .button:disabled {
     opacity: .6;
-    background-color: #466EE9;
-    border-color: #466EE9;
+    background-color: #4d5363;
+    border-color: #4d5363;
     box-shadow: 0 0;
   }
 
   .inverseButton:disabled{
     opacity: .6;
     background-color: white;
-    border-color: #466EE9;
-    color: #466EE9;
+    border-color: #4d5363;
+    color: #4d5363;
   }

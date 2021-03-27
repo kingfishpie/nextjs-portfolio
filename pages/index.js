@@ -10,11 +10,9 @@ export default function Home() {
       <main className='container'>
         <header className='header'>
           <div>
-            <h1>Hi, I'm Carrie</h1>
+            <h1>Carrie Nusbaum<span class="h1small">, MSI</span></h1>
             <h2>&mdash; UX designer, researcher, and design manager</h2>
-            <p>I’m an experienced UX designer and researcher with a knack for product strategy. I like helping to solve tricky problems, and making things make sense. </p>
-            <br />
-            <p>I currently live in (and work remotely from) Los Angeles 🌴.</p>
+            <p>I’m an experienced UX designer and researcher with a knack for product strategy. I like helping to solve tricky problems, and making things make sense. I currently live in (and work remotely from) Los Angeles. </p>
             <br />
             <p>Find me on <a href='https://www.linkedin.com/in/carrienusbaum/' target="_blank">LinkedIn</a> or email me at <a href='mailto:carrie.nusbaum@gmail.com' target="_blank">carrie.nusbaum@gmail.com</a></p>
             <br />
@@ -22,13 +20,13 @@ export default function Home() {
             <Button inverse={true}>See My Resume</Button>
           </div>
           <a href='/' className='logo'>
-            <img src='biopic.png' srcSet='biopic.png 2.5x' />
+            <img src='biopic.png' srcSet='biopic.png 3x' />
           </a>
           <br />
         </header>
         
 
-        <h2 className='divider'>--</h2>
+        <h2 className='divider'>Work</h2>
 
         <ul>
           {projects.map((project, index) => <Project project={project} key={index} />)}

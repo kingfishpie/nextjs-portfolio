@@ -12,7 +12,7 @@ const Meta = ({ title }) => {
       <link rel="icon" type="image/png" sizes="16x16" href={`/favicon-16x16-${theme}.png`} />
       <link rel="shortcut icon" href={`/favicon-${theme}.ico`} />
       <link rel="preconnect" href="https://fonts.gstatic.com"/> 
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Alata&family=Calistoga&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost&display=swap" rel="stylesheet"></link>
     </Head>
   )
 }

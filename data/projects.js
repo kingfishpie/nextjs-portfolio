@@ -6,8 +6,8 @@ export const projects = [
     description: "CooperVision Pro is a lightweight web-based ecommerce portal that eye care providers use to easily order contact lenses from CooperVision in their region. On each regional instance, I worked with local stakeholders to define requirements, and conduct contextual user research — translating that into design and project documentation assets.",
   },
   {
-    title: 'CooperVisionPro Commerce Edition',
-    link: '/',
+    title: 'CooperVisionPro eCommerce',
+    link: '/cvproecomm',
     image: 'sampleproject',
     description: "CooperVision Pro is a lightweight web-based ecommerce portal that eye care providers use to easily order contact lenses from CooperVision in their region. On each regional instance, I worked with local stakeholders to define requirements, and conduct contextual user research — translating that into design and project documentation assets.",
   },

@@ -10,29 +10,37 @@ body {
 }
 
 body {
-  color: #403f3f;
+  color: #49516B;
 }
 
 a {
-  color:#5F83F3;
+  color:#7F8DB2;
   font-weight: 800;
-  text-decoration:none;
 }
 
 a:hover {
-  color:#466EE9;
+  color:#7c8dbd;
   font-weight: 800;
-  text-decoration:none;
 }
 
 h1 {
+  font-family: 'Calistoga', sans-serif;
   font-weight: 900;
   font-size: 35px;
   line-height: 30px;
   padding-bottom: 10px;
 }
 
+.h1small {
+  font-family: 'Calistoga', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
 h2 {
+  font-family: 'Calistoga', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
@@ -45,8 +53,9 @@ h3 {
 
 p {
   font-size: 14px;
-  font-weight: medium;
+  font-weight: 500;
   line-height:20px;
+  letter-spacing: .1px;
 }
 
 .container {
@@ -81,6 +90,7 @@ p {
 }
 
 .projectTitle {
+  color: #49516B;
   font-weight: bold;
   text-decoration: none;
 }

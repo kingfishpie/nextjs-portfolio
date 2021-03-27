@@ -1,0 +1,37 @@
+.layout {
+  width: 8.5in;
+  height: 11in;
+  margin: 0;
+  padding: 1in;
+  page-break-after: always;
+  line-height: 1.4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1in;
+}
+
+.headshot {
+  margin-right: 0.0in;
+  margin-top: 0.5in;
+  height: 135px;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.entryHeader {
+  margin-bottom: 1rem;
+}
+
+.entryTitle {
+  font-weight: 700;
+}
+
+.listItem {
+  margin-bottom: 3rem;
+}
+
